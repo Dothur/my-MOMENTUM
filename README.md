@@ -21,3 +21,4 @@ JavaScript
  OpenWeathermap.org 에서 api를 활용하여 날씨, 온도, 지역을 나타냄
  
  https://nomadcoders.co/
+ https://dothur.github.io/my-MOMENTUM/
