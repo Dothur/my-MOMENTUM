@@ -1,0 +1,9 @@
+#weatherIcon {
+  position: relative;
+}
+
+#weather {
+  border: 3px;
+  border-radius: 30px;
+  border-style: solid;
+}

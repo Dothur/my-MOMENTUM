@@ -20,43 +20,60 @@
     />
     <!-- style -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/state.css" />
+    <link rel="stylesheet" href="./css/todo.css" />
+    <link rel="stylesheet" href="./css/login.css" />
     <link rel="stylesheet" href="./css/default.css" />
     <title>Momentum App</title>
   </head>
 
   <body>
     <div class="container">
-      <section id="State">
-        <h2 id="clock"></h2>
-        <div id="weather">
-          <span></span>
-          <span></span>
+      <section id="state" class="mx-auto mt-3 py-3 px-3">
+        <div id="weather" class="col-lg-6 col-md-6 col-sm-6 col-12">
+          <img id="weatherIcon" class="img-fluid" />
+          <span id="clock"></span>
+          <span id="weatherSpan"></span>
+          <span id="citySpan"></span>
         </div>
       </section>
-
-      <form id="login-form" class="hidden">
-        <input
-          class="form-control"
-          required
-          maxlength="15"
-          type="text"
-          placeholder="What is your name?"
-        />
-        <button
-          id="login-btn"
-          class="btn btn-outline-light btn-lg"
-          type="submit"
-          value="Log In"
-        >
-          Login
-        </button>
-      </form>
+      <section id="login">
+        <form id="login-form" class="hidden mx-auto">
+          <div class="input-group mb-3">
+            <input
+              class="form-control"
+              required
+              maxlength="15"
+              type="text"
+              placeholder="What is your name?"
+            />
+            <button
+              id="login-btn"
+              class="btn btn-outline-dark"
+              type="submit"
+              value="Log In"
+            >
+              Login
+            </button>
+          </div>
+        </form>
+      </section>
       <h1 id="greeting" class="hidden"></h1>
-      <form id="todo-form">
-        <input class="form-control" id="todo-input" type="text" required />
-        <button class="btn btn-default btn-lg" type="submit" value="Enter" />
-      </form>
-      <ul id="todo-list"></ul>
+      <section>
+        <form id="todo-form">
+          <div class="input-group mb-3">
+            <input class="form-control" id="todo-input" type="text" required />
+            <button
+              class="btn btn-outline-dark btn-sm"
+              type="submit"
+              value="Enter"
+            >
+              등록
+            </button>
+          </div>
+        </form>
+        <ul id="todo-list"></ul>
+      </section>
       <div id="quote">
         <span></span>
         <span></span>
