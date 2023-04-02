@@ -5,6 +5,8 @@
 #weather {
   border: 3px;
   border-radius: 30px;
-  background-color: lightgray;
-  opacity: 70%;
+  background-color: whitesmoke;
+  opacity: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
