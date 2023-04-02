@@ -37,43 +37,51 @@
           <span id="citySpan"></span>
         </div>
       </section>
-      <section id="login">
-        <form id="login-form" class="hidden mx-auto">
-          <div class="input-group mb-3">
-            <input
-              class="form-control"
-              required
-              maxlength="15"
-              type="text"
-              placeholder="What is your name?"
-            />
-            <button
-              id="login-btn"
-              class="btn btn-outline-dark"
-              type="submit"
-              value="Log In"
-            >
-              Login
-            </button>
-          </div>
-        </form>
-      </section>
-      <h1 id="greeting" class="hidden"></h1>
-      <section>
-        <form id="todo-form">
-          <div class="input-group mb-3">
-            <input class="form-control" id="todo-input" type="text" required />
-            <button
-              class="btn btn-outline-dark btn-sm"
-              type="submit"
-              value="Enter"
-            >
-              등록
-            </button>
-          </div>
-        </form>
-        <ul id="todo-list"></ul>
-      </section>
+      <div id="style-center">
+        <section id="login">
+          <form id="login-form" class="hidden mx-auto">
+            <div class="input-group mb-3">
+              <input
+                class="form-control"
+                required
+                maxlength="15"
+                type="text"
+                placeholder="What is your name?"
+              />
+              <button
+                id="login-btn"
+                class="btn btn-outline-dark"
+                type="submit"
+                value="Log In"
+              >
+                Login
+              </button>
+            </div>
+          </form>
+        </section>
+        <h1 id="greeting" class="hidden"></h1>
+        <section>
+          <form id="todo-form">
+            <div class="input-group mb-3">
+              <input
+                class="form-control"
+                id="todo-input"
+                type="text"
+                placeholder="Write your to do list.."
+                required
+              />
+              <button
+                class="btn btn-outline-dark btn-sm"
+                type="submit"
+                value="Enter"
+              >
+                등록
+              </button>
+            </div>
+          </form>
+          <ul id="todo-list"></ul>
+        </section>
+      </div>
       <div id="quote">
         <span></span>
         <span></span>
